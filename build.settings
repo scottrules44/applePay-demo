@@ -1,0 +1,9 @@
+settings =
+{
+	plugins = {
+		["plugin.applePay"] =
+	        {
+	            publisherId = "tech.scotth",
+	        },
+	},
+}
