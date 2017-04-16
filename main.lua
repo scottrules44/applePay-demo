@@ -1,7 +1,7 @@
 local applePay = require("plugin.applePay")
 local status = display.newText("Apple Pay", display.contentCenterX, display.contentCenterY, system.nativeFont, 20)
 local didComplete = false
-applePay.init("merchant.com.test1234", "pk_test_zSlwAfUSUiZWbCHXthmJlCyJ", function (e)
+applePay.init("merchantID", "stripeKey", function (e)
     if e.status == "showing" then
         status.text = "showing"
     end
