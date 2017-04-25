@@ -9,9 +9,9 @@ settings =
 				},
 			},
 		entitlements = {
-		    ["com.apple.developer.in-app-payments"] = {"enter merchant id here"},
+		    ["com.apple.developer.in-app-payments"] = {"merchant id"},
 		},
-	    },
+	},
 	plugins = {
 		["plugin.applePay"] =
 	        {
