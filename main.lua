@@ -3,7 +3,7 @@ local json = require("json")
 local status = display.newText("Apple Pay", display.contentCenterX, display.contentCenterY, system.nativeFont, 20)
 local didComplete = false
 local secretKey = "secretKey"
-applePay.init("merchant.com.test1234", "pk_test_zSlwAfUSUiZWbCHXthmJlCyJ", function (e)
+applePay.init("merchant id, "pk_test", function (e)
     if e.status == "showing" then
         status.text = "showing"
     end
